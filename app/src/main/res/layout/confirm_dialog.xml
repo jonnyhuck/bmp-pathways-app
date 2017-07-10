@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    android:padding="10dp"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/confirmDialogTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="STOP RECORDING"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/charcole_gray"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/LL_Seperator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/confirmDialogTitle"
+        android:layout_marginTop="10dp"
+        android:background="@color/charcole_gray"
+        android:orientation="horizontal"></LinearLayout>
+
+    <TextView
+        android:id="@+id/confirmDialogDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LL_Seperator"
+        android:paddingTop="10dp"
+        android:singleLine="false"
+        android:text="@string/message"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/charcole_gray"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/confirmDialogDesc"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/intervals"
+        android:minHeight="20dp"
+        android:spinnerMode="dropdown" />
+
+    <LinearLayout
+        android:id="@+id/buttonBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingBottom="1.0dip"
+        android:paddingLeft="4.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingTop="5.0dip">
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_accept"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/okBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_accept1"
+            android:singleLine="false"
+            android:text="OK" />
+    </LinearLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Belfast Pathways</string>
+
+    <string name="stop">Stop</string>
+    <string name="resume">Resume</string>
+    <string name="title_activity_alert">Alert</string>
+
+	<!-- User must insert the base URL for the server here -->
+    <string name="base_url">[INSERT SERVER BASE URL HERE<]/string>
+    <string name="message">Please select for how many hours you would like to stop recording your location.</string>
+
+    <string name="service_is_running">serviceIsRunning</string>
+    <string name="uploading_in_progress">uploadingInProgress</string>
+    <string name="tracking_on">Tracking is ON</string>
+    <string name="tracking_resumed">Tracking will resume at\n</string>
+    <string name="tracking_off">Tracking is OFF.\nGPS is OFF.\nPlease re-enable GPS from the settings menu</string>
+
+    <string-array name="intervals">
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>24 hours</item>
+    </string-array>
+</resources>
