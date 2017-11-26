@@ -1,6 +1,6 @@
 # Belfast Pathways GPS Tracker for Android
 
-Android application for GPS tracking of participants, used by the ESRC-funded Belfast Mobility Project (BMP) in 2016.
+Android application for GPS tracking of participants, used by the ESRC-funded [Belfast Mobility Project]() in 2016-7.
 
 The scripts and database structure that we used on the server are also available [here](https://github.com/jonnyhuck/bmp-pathways-server)
 
