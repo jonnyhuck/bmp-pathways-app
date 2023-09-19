@@ -1,3 +1,6 @@
+
+***Please note that this software is now quite outdated and is unlikely to work on a modern device. We expect that it would require substantial work to make this application operational again. We leave it here purely for the reference of those reading the associated scientific publications.***
+
 # Belfast Pathways GPS Tracker for Android
 
 Android application for GPS tracking of participants, used by the ESRC-funded [Belfast Mobility Project]() in 2016-7.
